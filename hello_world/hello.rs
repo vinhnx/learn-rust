@@ -24,9 +24,8 @@ fn main() {
 
   // create a structure which contains an `i32`, name is `Structure`
   #[allow(dead_code)]
+  #[derive(Debug)]
   struct Structure(i32);
 
-  // println!("this struct `{}` won't print", Structure(1))
+  println!("`{:?}`", Structure(1));
 }
-
-
