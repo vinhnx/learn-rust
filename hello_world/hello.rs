@@ -24,6 +24,7 @@ fn main() {
 
   // create a structure which contains an `i32`, name is `Structure`
   #[allow(dead_code)]
+  // `derive` attributes auto creates the impl required to make this struct printable with `fmt::Debug` trait
   #[derive(Debug)]
   struct Structure(i32);
   println!("`{:?}`", Structure(1)); // prints Structure(1)
