@@ -26,6 +26,9 @@ fn main() {
   #[allow(dead_code)]
   #[derive(Debug)]
   struct Structure(i32);
+  println!("`{:?}`", Structure(1)); // prints Structure(1)
 
-  println!("`{:?}`", Structure(1));
+  // pi
+  let pi = 3.141592;
+  println!("Pi is roughly {:.*}", 2, pi); // prints: Pi is roughly 3.14
 }
