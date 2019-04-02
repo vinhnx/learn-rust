@@ -32,4 +32,8 @@ fn main() {
   // pi
   let pi = 3.141592;
   println!("Pi is roughly {:.*}", 2, pi); // prints: Pi is roughly 3.14
+
+  // put a `Structure` inside of the structure `Deep`. Make it printable also
+  #[derive(Debug)]
+  struct Deep(Structure);
 }
