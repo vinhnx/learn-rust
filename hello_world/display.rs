@@ -80,6 +80,6 @@ fn main() {
   // println!("What does Point2D look like in binary: {:b}?", point); 
 
   let complex = Complex { real: 1.1, imagine: 3.3 };
-  println!("Debug: {}", complex);
-  println!("Display: {:?}", complex);
+  println!("Debug: {}", complex); // 1.1 +3.3i
+  println!("Display: {:?}", complex); // Complex { real: 1.1, imagine: 3.3 }
 }
