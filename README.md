@@ -19,7 +19,11 @@ Printing errors
 Printing errors should be done via stderr to make it easier for users and other tools to pipe their outputs to files or more tools.
 
 ==
-Rust's Result<Ok,Err>
+Rust's Result:
+
+```rust
+Result<Ok,Err>
+```
 
 ==
 
